@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "874042B929C31D18B59AC06312DE82333EDBC958",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "874042B929C31D18B59AC06312DE82333EDBC958" : 0,
+    "9025163822AAEA7A2D8AC9210D0874A56F62B462" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4E92A5D7-26ED-4644-AC3D-284FA6604E5C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "874042B929C31D18B59AC06312DE82333EDBC958" : "HealthKitDistanceHistogramProofs\/",
+    "9025163822AAEA7A2D8AC9210D0874A56F62B462" : "..\/Externals\/ChartProvider\/ios-charts"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HybridHealthStore",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DistanceHistogramMasterDetail\/HybridHealthStore.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/thulefog\/HealthKitProofs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "874042B929C31D18B59AC06312DE82333EDBC958"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/danielgindi\/ios-charts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9025163822AAEA7A2D8AC9210D0874A56F62B462"
+    }
+  ]
+}
