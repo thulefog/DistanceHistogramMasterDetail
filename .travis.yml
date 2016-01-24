@@ -13,4 +13,3 @@ before_install:
 
 script:
   - xctool test -workspace ./DistanceHistogramMasterDetail/HybridHealthStore.xcworkspace -scheme HybridHealthStore -sdk iphonesimulator9.2
- ONLY_ACTIVE_ARCH=NO
