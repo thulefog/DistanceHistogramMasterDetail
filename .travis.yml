@@ -12,5 +12,5 @@ before_install:
   - brew upgrade xctool
 
 script:
-  - xctool test -workspace ./DistanceHistogramMasterDetail/HybridHealthStore.xcworkspace -scheme HybridHealthStore -sdk iphonesimulator9.2
+  - xctool test -workspace ./DistanceHistogramMasterDetail/HybridHealthStore.xcworkspace -scheme HybridHealthStore -sdk iphonesimulator
 # ONLY_ACTIVE_ARCH=NO
