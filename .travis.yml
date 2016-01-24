@@ -7,5 +7,9 @@ xcode_scheme: HybridHealthStore
 xcode_sdk: iphonesimulator9.1
 podfile: ./DistanceHistogramMasterDetail/podfile
 
+before_install:
+  - brew update
+  - brew upgrade xctool
+
 script:
-#  - ./bin/tests
+xctool test -workspace ./DistanceHistorgramMasterDetail/HybridHealthStore.xcworkspace -scheme HybridHealthStore -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
