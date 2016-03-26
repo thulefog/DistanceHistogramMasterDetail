@@ -53,6 +53,9 @@ class MasterViewController: UITableViewController {
         
         //OPEN: threading issue around AutoLayout --> authenticateWithTouchID()
         
+        var authenticationResult = authenticateWithTouchID()
+        log( "TouchID Authentication result \(authenticationResult)" )
+
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.navigationItem.leftBarButtonItem = self.editButtonItem()

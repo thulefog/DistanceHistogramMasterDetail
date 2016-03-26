@@ -41,11 +41,12 @@ protocol IBiometricsProvider
 extension UITableViewController  {
     
     func showAlertController(message: String) {
-        let alertController = UIAlertController(title: nil, message: message, preferredStyle: .Alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
-        presentViewController(alertController, animated: true, completion: nil)
+        dispatch_async(dispatch_get_main_queue(), {
+            let alertController = UIAlertController(title: nil, message: message, preferredStyle: .Alert)
+            alertController.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+            self.presentViewController(alertController, animated: true, completion: nil)
+        })
     }
-    
     func authenticateWithTouchID() -> Bool {
         // create the Local Authentication context and working variables
         let context = LAContext()
