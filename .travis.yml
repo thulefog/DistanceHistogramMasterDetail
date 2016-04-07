@@ -12,4 +12,4 @@ before_install:
 #  - brew upgrade xctool
 
 script:
-  - xctool test -workspace ./DistanceHistogramMasterDetail/DistanceHistogramMasterDetail.xcworkspace -scheme DistanceHistogramMasterDetail -sdk iphonesimulator9.3
+  - xctool -workspace ./DistanceHistogramMasterDetail/DistanceHistogramMasterDetail.xcworkspace -scheme DistanceHistogramMasterDetail -sdk iphonesimulator9.3
