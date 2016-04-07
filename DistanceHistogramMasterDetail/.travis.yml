@@ -1,4 +1,0 @@
- # file: .travis.yml
-language: objective-c
-script:
-  - xcodebuild -workspace DistanceHistogramMasterDetail.xcodeproj -scheme DistanceHistogramMasterDetail -sdk iphonesimulator
