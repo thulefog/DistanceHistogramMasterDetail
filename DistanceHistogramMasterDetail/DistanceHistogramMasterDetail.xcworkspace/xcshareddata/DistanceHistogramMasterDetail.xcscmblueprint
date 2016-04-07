@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "874042B929C31D18B59AC06312DE82333EDBC958",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "874042B929C31D18B59AC06312DE82333EDBC958" : 0,
+    "9025163822AAEA7A2D8AC9210D0874A56F62B462" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D6ADDC10-331A-4154-B4A0-F12D33BB0974",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "874042B929C31D18B59AC06312DE82333EDBC958" : "HealthKitDistanceHistogramProofs\/",
+    "9025163822AAEA7A2D8AC9210D0874A56F62B462" : "HealthKitDistanceHistogramProofs\/ios-charts\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DistanceHistogramMasterDetail",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DistanceHistogramMasterDetail\/DistanceHistogramMasterDetail.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/thulefog\/HealthKitProofs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "874042B929C31D18B59AC06312DE82333EDBC958"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/danielgindi\/ios-charts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9025163822AAEA7A2D8AC9210D0874A56F62B462"
+    }
+  ]
+}
