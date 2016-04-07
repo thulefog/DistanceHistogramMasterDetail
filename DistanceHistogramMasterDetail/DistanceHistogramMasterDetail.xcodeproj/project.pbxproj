@@ -90,7 +90,7 @@
 		AB171E5E1AE83B2B00BB0E13 /* EncryptionProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptionProviderTests.swift; sourceTree = "<group>"; };
 		AB4A98B81C37CAC600BB8600 /* RNCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCryptor.swift; sourceTree = "<group>"; };
 		AB4A98BA1C37CD7F00BB8600 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../ios-charts/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
-		AB5F07591A569A5A00E42414 /* HybridHealthStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HybridHealthStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5F07591A569A5A00E42414 /* DistanceHistogramMasterDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistanceHistogramMasterDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5F075D1A569A5A00E42414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB5F075E1A569A5A00E42414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB5F07601A569A5A00E42414 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		AB5F07651A569A5A00E42414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB5F07671A569A5A00E42414 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AB5F076A1A569A5A00E42414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		AB5F07701A569A5B00E42414 /* HybridHealthStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HybridHealthStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5F07701A569A5B00E42414 /* DistanceHistogramMasterDetail.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceHistogramMasterDetail.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5F07751A569A5B00E42414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB5F07761A569A5B00E42414 /* HybridHealthStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridHealthStoreTests.swift; sourceTree = "<group>"; };
 		AB5F07801A569A7900E42414 /* HybridHealthStore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HybridHealthStore.entitlements; sourceTree = "<group>"; };
@@ -180,8 +180,8 @@
 		AB5F075A1A569A5A00E42414 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB5F07591A569A5A00E42414 /* HybridHealthStore.app */,
-				AB5F07701A569A5B00E42414 /* HybridHealthStoreTests.xctest */,
+				AB5F07591A569A5A00E42414 /* DistanceHistogramMasterDetail.app */,
+				AB5F07701A569A5B00E42414 /* DistanceHistogramMasterDetail.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -249,9 +249,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB5F07581A569A5A00E42414 /* HybridHealthStore */ = {
+		AB5F07581A569A5A00E42414 /* DistanceHistogramMasterDetail */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB5F077A1A569A5B00E42414 /* Build configuration list for PBXNativeTarget "HybridHealthStore" */;
+			buildConfigurationList = AB5F077A1A569A5B00E42414 /* Build configuration list for PBXNativeTarget "DistanceHistogramMasterDetail" */;
 			buildPhases = (
 				1809D0F00727201F79C910A2 /* Check Pods Manifest.lock */,
 				AB5F07551A569A5A00E42414 /* Sources */,
@@ -266,14 +266,14 @@
 			dependencies = (
 				AB4A98C91C37DBCC00BB8600 /* PBXTargetDependency */,
 			);
-			name = HybridHealthStore;
+			name = DistanceHistogramMasterDetail;
 			productName = HybridHealthStore;
-			productReference = AB5F07591A569A5A00E42414 /* HybridHealthStore.app */;
+			productReference = AB5F07591A569A5A00E42414 /* DistanceHistogramMasterDetail.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AB5F076F1A569A5A00E42414 /* HybridHealthStoreTests */ = {
+		AB5F076F1A569A5A00E42414 /* DistanceHistogramMasterDetailTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB5F077D1A569A5B00E42414 /* Build configuration list for PBXNativeTarget "HybridHealthStoreTests" */;
+			buildConfigurationList = AB5F077D1A569A5B00E42414 /* Build configuration list for PBXNativeTarget "DistanceHistogramMasterDetailTests" */;
 			buildPhases = (
 				AB5F076C1A569A5A00E42414 /* Sources */,
 				AB5F076D1A569A5A00E42414 /* Frameworks */,
@@ -284,9 +284,9 @@
 			dependencies = (
 				AB5F07721A569A5B00E42414 /* PBXTargetDependency */,
 			);
-			name = HybridHealthStoreTests;
+			name = DistanceHistogramMasterDetailTests;
 			productName = HybridHealthStoreTests;
-			productReference = AB5F07701A569A5B00E42414 /* HybridHealthStoreTests.xctest */;
+			productReference = AB5F07701A569A5B00E42414 /* DistanceHistogramMasterDetail.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -298,7 +298,7 @@
 				LastSwiftMigration = 0720;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "Free Heel Designs";
+				ORGANIZATIONNAME = "Aquavit Designs";
 				TargetAttributes = {
 					AB5F07581A569A5A00E42414 = {
 						CreatedOnToolsVersion = 6.2;
@@ -319,7 +319,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AB5F07541A569A5A00E42414 /* Build configuration list for PBXProject "HybridHealthStore" */;
+			buildConfigurationList = AB5F07541A569A5A00E42414 /* Build configuration list for PBXProject "DistanceHistogramMasterDetail" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -338,8 +338,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				AB5F07581A569A5A00E42414 /* HybridHealthStore */,
-				AB5F076F1A569A5A00E42414 /* HybridHealthStoreTests */,
+				AB5F07581A569A5A00E42414 /* DistanceHistogramMasterDetail */,
+				AB5F076F1A569A5A00E42414 /* DistanceHistogramMasterDetailTests */,
 			);
 		};
 /* End PBXProject section */
@@ -477,7 +477,7 @@
 		};
 		AB5F07721A569A5B00E42414 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AB5F07581A569A5A00E42414 /* HybridHealthStore */;
+			target = AB5F07581A569A5A00E42414 /* DistanceHistogramMasterDetail */;
 			targetProxy = AB5F07711A569A5B00E42414 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -600,7 +600,7 @@
 				INFOPLIST_FILE = HybridHealthStore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aquavitdesigns.HybridHealthStore;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DistanceHistogramMasterDetail;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "HybridHealthStore-Bridging-Header.h";
 			};
@@ -618,7 +618,7 @@
 				INFOPLIST_FILE = HybridHealthStore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aquavitdesigns.HybridHealthStore;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DistanceHistogramMasterDetail;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "HybridHealthStore-Bridging-Header.h";
 			};
@@ -641,9 +641,9 @@
 				INFOPLIST_FILE = HybridHealthStoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.freeheeldesigns.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DistanceHistogramMasterDetail;
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HybridHealthStore.app/HybridHealthStore";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DistanceHistogramMasterDetail.app/DistanceHistogramMasterDetail";
 			};
 			name = Debug;
 		};
@@ -660,16 +660,16 @@
 				INFOPLIST_FILE = HybridHealthStoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.freeheeldesigns.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DistanceHistogramMasterDetail;
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HybridHealthStore.app/HybridHealthStore";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DistanceHistogramMasterDetail.app/DistanceHistogramMasterDetail";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB5F07541A569A5A00E42414 /* Build configuration list for PBXProject "HybridHealthStore" */ = {
+		AB5F07541A569A5A00E42414 /* Build configuration list for PBXProject "DistanceHistogramMasterDetail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB5F07781A569A5B00E42414 /* Debug */,
@@ -678,7 +678,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB5F077A1A569A5B00E42414 /* Build configuration list for PBXNativeTarget "HybridHealthStore" */ = {
+		AB5F077A1A569A5B00E42414 /* Build configuration list for PBXNativeTarget "DistanceHistogramMasterDetail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB5F077B1A569A5B00E42414 /* Debug */,
@@ -687,7 +687,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB5F077D1A569A5B00E42414 /* Build configuration list for PBXNativeTarget "HybridHealthStoreTests" */ = {
+		AB5F077D1A569A5B00E42414 /* Build configuration list for PBXNativeTarget "DistanceHistogramMasterDetailTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB5F077E1A569A5B00E42414 /* Debug */,

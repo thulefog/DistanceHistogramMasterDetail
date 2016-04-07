@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB5F07581A569A5A00E42414"
-               BuildableName = "HybridHealthStore.app"
-               BlueprintName = "HybridHealthStore"
-               ReferencedContainer = "container:HybridHealthStore.xcodeproj">
+               BuildableName = "DistanceHistogramMasterDetail.app"
+               BlueprintName = "DistanceHistogramMasterDetail"
+               ReferencedContainer = "container:DistanceHistogramMasterDetail.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB5F076F1A569A5A00E42414"
-               BuildableName = "HybridHealthStoreTests.xctest"
-               BlueprintName = "HybridHealthStoreTests"
-               ReferencedContainer = "container:HybridHealthStore.xcodeproj">
+               BuildableName = "DistanceHistogramMasterDetail.xctest"
+               BlueprintName = "DistanceHistogramMasterDetailTests"
+               ReferencedContainer = "container:DistanceHistogramMasterDetail.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB5F076F1A569A5A00E42414"
-               BuildableName = "HybridHealthStoreTests.xctest"
-               BlueprintName = "HybridHealthStoreTests"
-               ReferencedContainer = "container:HybridHealthStore.xcodeproj">
+               BuildableName = "DistanceHistogramMasterDetail.xctest"
+               BlueprintName = "DistanceHistogramMasterDetailTests"
+               ReferencedContainer = "container:DistanceHistogramMasterDetail.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB5F07581A569A5A00E42414"
-            BuildableName = "HybridHealthStore.app"
-            BlueprintName = "HybridHealthStore"
-            ReferencedContainer = "container:HybridHealthStore.xcodeproj">
+            BuildableName = "DistanceHistogramMasterDetail.app"
+            BlueprintName = "DistanceHistogramMasterDetail"
+            ReferencedContainer = "container:DistanceHistogramMasterDetail.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB5F07581A569A5A00E42414"
-            BuildableName = "HybridHealthStore.app"
-            BlueprintName = "HybridHealthStore"
-            ReferencedContainer = "container:HybridHealthStore.xcodeproj">
+            BuildableName = "DistanceHistogramMasterDetail.app"
+            BlueprintName = "DistanceHistogramMasterDetail"
+            ReferencedContainer = "container:DistanceHistogramMasterDetail.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB5F07581A569A5A00E42414"
-            BuildableName = "HybridHealthStore.app"
-            BlueprintName = "HybridHealthStore"
-            ReferencedContainer = "container:HybridHealthStore.xcodeproj">
+            BuildableName = "DistanceHistogramMasterDetail.app"
+            BlueprintName = "DistanceHistogramMasterDetail"
+            ReferencedContainer = "container:DistanceHistogramMasterDetail.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
