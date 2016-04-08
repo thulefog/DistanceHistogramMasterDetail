@@ -15,7 +15,7 @@ The use case is the user is interested in generating a histogram of their step c
 - HealthKit with Health Kit Provider layer to coordinate data queries
 - Data Provider to provide a very rough local store
 - Data plots rendered using ios-charts: https://github.com/danielgindi/ios-charts.git
-- Biometrics Provider to provide Touch ID, removed temporarily due to minor defect with threading issue around Auto Layout
+- Biometrics Provider to provide Touch ID. Minor issue with auto layout thread interference fixed with a dispatch_async block.
 
 ## Screen Transitions
 
