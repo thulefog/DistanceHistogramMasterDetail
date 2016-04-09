@@ -1,8 +1,8 @@
 language: objective-c
 osx_image: xcode7.3
 
-# xcode_project: ./DistanceHistogramMasterDetail/DistanceHistogramMasterDetail.xcodeproj
-xcode_workspace: ./DistanceHistogramMasterDetail/DistanceHistogramMasterDetail.xcworkspace
+xcode_project: ./DistanceHistogramMasterDetail/DistanceHistogramMasterDetail.xcodeproj
+# xcode_workspace: ./DistanceHistogramMasterDetail/DistanceHistogramMasterDetail.xcworkspace
 xcode_scheme: DistanceHistogramMasterDetail
 xcode_sdk: iphonesimulator9.3
 podfile: ./DistanceHistogramMasterDetail/podfile
@@ -12,4 +12,4 @@ before_install:
 #  - brew upgrade xctool
 
 script:
- - xctool test -workspace ./DistanceHistogramMasterDetail/DistanceHistogramMasterDetail.xcworkspace -scheme DistanceHistogramMasterDetail -sdk iphonesimulator9.3
+- xctool -workspace ./DistanceHistogramMasterDetail/DistanceHistogramMasterDetail.xcworkspace -scheme DistanceHistogramMasterDetail -sdk iphonesimulator9.3
